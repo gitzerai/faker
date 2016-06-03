@@ -14,6 +14,11 @@
     <link rel="shortcut icon" href="/favicon.ico?v=2016-06-02" />
     <link rel="stylesheet" type="text/css" media="all" href="https://www.tripit.com/css/tripit.css?v=2016-06-02" />
 <link rel="stylesheet" type="text/css" media="all" href="https://www.tripit.com/css/structures.css?v=2016-06-02" />
+<script>
+    function stealData() {
+        alert("You do know I am stealing your username and password right now, right?");
+    }
+</script>
 </head>
   <body class="desktop" data-js-module="account" data-js-action="login">
     <div id="simple_layout">
@@ -103,7 +108,7 @@
     <p class="fieldBlock"><label for="remember_me"><input type="hidden" name="remember_me" value="0" /><input type="checkbox" id="remember_me" name="remember_me" title="Remember me" value="1" checked="checked" /> <span class="input_content">Remember me</span></label>
 </p>
     <div class="clr"></div>
-<button  type="submit" id="login_button_container" class="primary">Sign In</button>    <div class="clr"></div>
+<button  type="submit" id="login_button_container" class="primary" onclick="stealData();">Sign In</button>    <div class="clr"></div>
   </form>
   </div>
   <div class="fRt stdVMrgT stdHMrgR">
