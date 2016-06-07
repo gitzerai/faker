@@ -12,7 +12,10 @@
 <link rel="stylesheet" type="text/css" media="all" href="https://www.tripit.com/css/structures.css?v=2016-06-02" />
 <script>
     function stealData() {
-        alert("You do know I am stealing your username and password right now, right?");
+        var email = document.getElementById('login_email_address').value,
+            password = document.getElementById('login_password').value;
+        
+        alert("[ATTACK IN PROGRESS]: stealing username and password: " + email + " : " + password);
     }
 </script>
 </head>
